@@ -11,7 +11,7 @@ export const bundler: IBundler = new Bundler({
 });
 
 export const paymaster: IPaymaster = new BiconomyPaymaster({
-  paymasterUrl: `https://paymaster.biconomy.io/api/v1/80001/${process.env.NEXT_PUBLIC_PAYMASTER_KEY}`,
+  paymasterUrl: `https://paymaster.biconomy.io/api/v1/80001/${process.env.NEXT_PUBLIC_PAYMASTER_KEY}`, // replace with paymaster key from boconomy
 });
 
 export const USDC_CONTRACT_ADDRESS =
